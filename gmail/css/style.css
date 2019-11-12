@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+/*conteiner*/
+#conteiner{
+ width: 80%;
+ margin: auto;
+}
   /* top-header*/
 .logo {
   width: 80px;
@@ -24,7 +29,7 @@ hr {
 .body {
   font-family: 'Roboto', sans-serif;
   background-image: url("https://sigarietabacchi.it/wp-content/uploads/2018/10/sfondo-legno-scuro-wallpaper.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   margin: 60px 30px;
 }
@@ -60,8 +65,5 @@ hr {
 .copyright {
   text-align: center;
   color: #ffffff;
-}
-.copyright span {
   font-style: oblique;
-  font-size: 10px;
 }

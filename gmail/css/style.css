@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  width: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+}
+.logo-title{
+  display: inline;
+  color: white;
+}
+hr {
+  border-color: lightgrey;
+  border-style: double;
+}
+.body{
+  background-image: url("https://sigarietabacchi.it/wp-content/uploads/2018/10/sfondo-legno-scuro-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#vai{
+  border-radius: 5px;
+}
+.title-notification{
+  color: white;
+}
+.title-notification span {
+  color: white;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 40px;
+  height:40px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #FFA500;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  }
+  .emails{
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 1px;
+}
+.emails p {
+  display: inline;
+
+}
+.read{
+  background-color: white;
+}
+.copyright{
+  text-align: center;
+  color: white;
+}
+.copyright span {
+  font-style: oblique;
+  font-size: 10px;
+}
